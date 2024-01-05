@@ -1,0 +1,32 @@
+.container{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 70hw;
+}
+
+.body{
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.body h2{
+    font-weight: 500;
+}
+
+.boton{
+    position: relative;
+    display: inline;
+    width: 150px;
+    margin-top: 14px;
+    background-color: #EBE82A;
+}
+
+.boton:hover{
+    background-color: #FAF861;
+}

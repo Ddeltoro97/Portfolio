@@ -1,0 +1,52 @@
+.block{
+    display: grid;
+}
+
+.label{
+    font-weight: 600;
+
+}
+
+.input{
+    width: 350px;
+}
+
+.textBox{
+    height: 75px;
+    width: 350px;
+    margin-bottom: 4px;
+}
+
+.button{
+    width: 150px;
+    background-color: #EBE82A;
+}
+
+.button:hover{
+    background-color: #FAF861;
+}
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    width: 30vw;
+    height: 45vh;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgb(93, 92, 92);
+    border-radius: 12px;
+}
+
+.modalButton{
+    background-color: #EBE82A;
+}
+.modalButton:hover{
+    background-color: #FAF861;
+}
+
+.modalButton:disabled{
+    background-color: gray;
+}

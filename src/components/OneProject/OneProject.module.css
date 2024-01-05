@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    margin: 7px;
+}
+
+.nameImage{
+   width: 300px;
+    /* height: 50px; */
+    border: 1px solid rgb(110, 108, 108);
+    background-color: #292285;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    width: 300px;
+}
+
+.descriptionHolder{
+    border: 1px solid rgb(110, 108, 108);
+    width: 50vw;
+}
+
+.finalHolder{
+    display: grid;
+    place-items: center;
+    border: 1px solid rgb(110, 108, 108);
+    width: 15vw;
+}

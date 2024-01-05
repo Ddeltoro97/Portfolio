@@ -1,0 +1,45 @@
+
+.line{
+    width: 70hw;
+}
+
+.image{
+    height: 300px;
+    margin: 4px;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 60vw;
+}
+
+.technologies{
+    font-weight: 900;
+}
+
+.techHolder{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.tech{
+    margin: 8px;
+}
+
+.techimg{
+   width: 50px;
+}
+
+.icon{
+    font-size: 30px;
+    margin: 15px;
+    color: black;
+}
+
+.icon:hover{
+    color: rgb(61, 61, 132);
+}

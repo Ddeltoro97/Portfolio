@@ -1,0 +1,51 @@
+.container{
+    padding: 0;
+    display: flex;
+    color: #1D0508;
+}
+
+.sidebar{
+    display: block;
+    height: 100vh;
+    margin-right: 2vw;
+    background-color: #292285;
+    /* padding-left: 5px; */
+    transition: all 0.4s ease;
+}
+
+.topSection{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.topSection h2{
+    margin-right: 7px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    color: #1D0508;
+}
+
+.section:hover{
+    background-color: #2859D2;
+    color:#393838;
+}
+
+.section h2{
+    margin-left: 4px;
+}
+
+.icon{
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.component{
+    display: flex;
+    justify-content: center;
+
+}
