@@ -12,7 +12,7 @@ export default function About(){
     const [t, i18n] = useTranslation("about")
 
     return(
-        <div>
+        <div className={styles.about}>
             <h1>{t("header.message")}</h1>
             <hr className={styles.line} />
             <div>

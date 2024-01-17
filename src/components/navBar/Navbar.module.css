@@ -54,7 +54,8 @@
     top: 0%;
     /* border: 1px solid black; */
     padding-left: 65px;
-    height: 100vh
+    min-height: 100vh;
+    background-color: rgb(224, 216, 207);
 }
 
 .close{
