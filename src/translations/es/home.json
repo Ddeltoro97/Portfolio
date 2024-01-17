@@ -1,0 +1,14 @@
+{
+    "header": {
+        "message": "Bienvenido a mi Portafolio"
+    },
+    "body1": {
+        "message": "Hola, mi nombre es David, Soy un programador full stack de "
+    },
+    "body2": {
+        "message": " años de Barranquilla, Colombia. Actualmente soy capaz de diseñar, editar, manejar y crear páginas web de las que cualquiera puede beneficiarse. No dudes en revisar mis proyectos mas recientes."
+    },
+    "button":{
+        "message": "Mis Proyectos"
+    }
+}    

@@ -1,0 +1,12 @@
+{
+    "header": {
+        "message": "Contáctame",
+        "body": "Siéntete libre de contactarme, puedes escribirme un email, te aseguro que lo leeré"
+    },
+    "other":{
+        "name": "Nombre",
+        "message": "Mensaje",
+        "button": "Enviar"
+    }
+   
+}    

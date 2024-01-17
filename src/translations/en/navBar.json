@@ -1,0 +1,17 @@
+{
+    "header": {
+        "message": "David's Portfolio"
+    },
+    "home":{
+        "message": "Home"
+    },
+    "about":{
+        "message": "About"
+    },
+    "proyects":{
+        "message": "My Projects"
+    },
+    "contact":{
+        "message": "Contact"
+    }
+}

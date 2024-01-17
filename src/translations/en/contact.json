@@ -1,0 +1,12 @@
+{
+    "header": {
+        "message": "Contact Me",
+        "body": "Feel free to contact me, you can send me an email and I'll make sure to read it."
+    },
+    "other":{
+        "name": "Name",
+        "message": "Message",
+        "button": "Send"
+    }
+   
+}    

@@ -1,10 +1,14 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+
 
 import styles from './Contact.module.css'
 
 export default function Contact(){
+
+    const [t, i18n] = useTranslation("contact")
 
     const form = useRef();
 
@@ -13,9 +17,9 @@ export default function Contact(){
   
       emailjs.sendForm('service_rq1ib4o', 'template_4b7l4cn', form.current, 'fZpQc9RAoWb4GA1p9')
         .then((result) => {
-            console.log(result.text);
+            // console.log(result.text);
         }, (error) => {
-            console.log(error.text);
+            // console.log(error.text);
         });
     };
 
@@ -52,21 +56,21 @@ export default function Contact(){
     }
 
 
-    console.log(validate)
+    // console.log(validate)
     return(
         <div>
-            <h1>Contact me</h1>
+            <h1>{t("header.message")}</h1>
             <hr />
-            <p>Feel free to contact me, you can send me an email and I'll make sure to read it.</p>
+            <p>{t("header.body")}</p>
             <div>
                 <form className={styles.block} ref={form} onSubmit={sendEmail}>
-                    <label className={styles.label}>Name</label>
+                    <label className={styles.label}>{t("other.name")}</label>
                     <input className={styles.input} type="text" name="user_name" value={validate.name} onChange={changeName}/>
                     <label className={styles.label}>Email</label>
                     <input className={styles.input} type="email" name="user_email" value={validate.email} onChange={changeMail} />
-                    <label className={styles.label}>Message</label>
+                    <label className={styles.label}>{t("other.message")}</label>
                     <textarea className={styles.textBox} name="message" value={validate.message} onChange={changeMessage}/>
-                    <button disabled={!validate.name || !validate.email || !validate.message || validate.name.startsWith(' ') || validate.message.startsWith(' ') || validate.email.startsWith(' ') ||  validate.email.trim() === '' || !/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(validate.email)} className={styles.button} onClick={toggle} type="submit">Send</button>
+                    <button disabled={!validate.name || !validate.email || !validate.message || validate.name.startsWith(' ') || validate.message.startsWith(' ') || validate.email.startsWith(' ') ||  validate.email.trim() === '' || !/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(validate.email)} className={styles.button} onClick={toggle} type="submit">{t("other.button")}</button>
                 </form>
             </div>
             

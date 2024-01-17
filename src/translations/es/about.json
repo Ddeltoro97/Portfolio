@@ -1,0 +1,16 @@
+{
+    "header": {
+        "message": "Un Poco de Mi"
+    },
+    "body": {
+        "message": "Desde que era un niño siempre me interesó la tecnología. No fué hasta ahora que pude aprovechar ese interes y transformarlo en parte de mi vida. Me considero una persona bastante suertuda porque pude estudiar y aprender programación, yo considero esto un sueño hecho realidad. Genuinamente puedo decir que soy un desarrollador full stack con bases fuertes en front end y back end.",
+        "title": "Technologías:",
+        "small": "Puedes encontrarme en:"
+
+    },
+    "contact":{
+        "message": "O",
+        "message2": "click aquí",
+        "message3": "para escribirme un correo."
+    }
+}    

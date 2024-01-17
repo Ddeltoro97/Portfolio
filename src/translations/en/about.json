@@ -1,0 +1,16 @@
+{
+    "header": {
+        "message": "A little bit about myself"
+    },
+    "body": {
+        "message": "Since I was young I have always been interested in computer science. It isn't untill now that I am able to capitalize on that interest and make it part of my life. I consider myself a very lucky person because I was able to study and learn programming, I consider this a dream come true. I can genuinely say that I am a full stack developer with a strong background on front-end and back-end.",
+        "title": "Technologies:",
+        "small": "You can find me on:"
+
+    },
+    "contact":{
+        "message": "Or",
+        "message2": "click here",
+        "message3": "to send me an email."
+    }
+}    

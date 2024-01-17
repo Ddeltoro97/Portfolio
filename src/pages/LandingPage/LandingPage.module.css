@@ -1,0 +1,18 @@
+.container{
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 70vw;
+    height: 40vh;
+    display: grid;
+    place-items: center;
+}
+
+.button{
+    margin: 7px;
+    background-color: #EBE82A;
+    width: 130px;
+}
+
+.button:hover{
+    background-color: #FAF861;
+}

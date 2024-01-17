@@ -30,3 +30,9 @@
 .boton:hover{
     background-color: #FAF861;
 }
+
+@media screen and (max-width: 1000px){
+    .body{
+        width: 85vw;
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "header": {
+        "message": "Welcome to My Portfolio"
+    },
+    "body1": {
+        "message": "Hi my name is David, I am a "
+    },
+    "body2": {
+        "message": " year old full stack programmer, from Barranquilla, Colombia. I am currently able to design, edit, manage and create websites that anyone can benefit from. Feel free to take a look at my latest proyects."
+    },
+    "button":{
+        "message": "My Projects"
+    }
+}    

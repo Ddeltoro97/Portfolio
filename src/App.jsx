@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import {Routes, Route} from 'react-router-dom'
 import React from 'react'
+import LandingPage from './pages/LandingPage/LandingPage'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Projects from './pages/Projects/Projects'
@@ -16,7 +17,8 @@ function App() {
     <div className='container'>
       <Navbar>
         <Routes>
-          <Route path="" element={<Home/>}></Route>
+          <Route path='/' element={<LandingPage/>}></Route>
+          <Route path="/home" element={<Home/>}></Route>
           <Route path="/projects" element={<Projects/>}></Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/contact" element={<Contact/>}/>

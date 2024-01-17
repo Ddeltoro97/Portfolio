@@ -2,21 +2,25 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { NavLink } from "react-router-dom";
 import image from '../../utils/IMG_3532.jpeg';
+
+import { useTranslation } from 'react-i18next';
+
 import styles from './About.module.css'
 
 export default function About(){
+
+    const [t, i18n] = useTranslation("about")
+
     return(
         <div>
-            <h1>A little bit about myself</h1>
+            <h1>{t("header.message")}</h1>
             <hr className={styles.line} />
             <div>
             <div className={styles.flex}>
                 <img className={styles.image} src={image} alt="" />
                 <div className={styles.container}>
-
-                    <h3>Since I was young I have always been interested in computer science. It isn't untill now that I am able to capitalize on that interest and make it come true. I consider myself a very lucky person because I was able to study and learn programming, consider this a dream come true. I gan genuinely say that I am a full stack developer with a strong background on front-end and back-end. 
-                    </h3>
-                    <h2 className={styles.technologies}>Technologies:</h2>
+                    <h3>{t("body.message")}</h3>
+                    <h2 className={styles.technologies}>{t("body.title")}</h2>
                     <div className={styles.techHolder}>
                         <div className={styles.tech}>
                             <h3>HTML</h3>
@@ -59,10 +63,10 @@ export default function About(){
                 </div>
                
             </div>
-            <h3>You can find me on: </h3>
+            <h3>{t("body.small")} </h3>
             <a href="https://github.com/Ddeltoro97"> <FontAwesomeIcon className={styles.icon} icon={faGithub}/></a>
             <a href="https://www.linkedin.com/in/david-del-toro-8aa143102/"><FontAwesomeIcon className={styles.icon} icon={faLinkedin}/></a>
-            <h2>Or <NavLink to = "/contact">click here</NavLink> to contact me directly.</h2>
+            <h2>{t("contact.message")} <NavLink to = "/contact">{t("contact.message2")}</NavLink> {t("contact.message3")}</h2>
             <div>
             </div>
             </div>

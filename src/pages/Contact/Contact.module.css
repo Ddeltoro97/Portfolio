@@ -9,12 +9,14 @@
 
 .input{
     width: 350px;
+    background-color: white;
 }
 
 .textBox{
     height: 75px;
     width: 350px;
     margin-bottom: 4px;
+    background-color: white;
 }
 
 .button{

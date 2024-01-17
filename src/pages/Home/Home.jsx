@@ -1,8 +1,11 @@
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 import styles from './Home.module.css'
 
 export default function Home(){
+  
+    const [t, i18n] = useTranslation("home")
 
     const navigate = useNavigate();
 
@@ -30,14 +33,14 @@ export default function Home(){
         <div className={styles.container}>
 
         <h1>
-            Welcome to my portfolio
+            {t("header.message")}
         </h1>
         <hr className={styles.line} />
         <div className={styles.body}>
         <h2>
-            Hi my name is David, I am a {ageValue} year old full stack programmer, from Barranquilla, Colombia. I am currently able to design, edit, manage and create websites that anyone can benefit from. Feel free to take a look at my latest proyects.
+        {t("body1.message")}{ageValue}{t("body2.message")}
         </h2>
-        <button className={styles.boton} onClick={seeProjects}>My Projects</button>
+        <button className={styles.boton} onClick={seeProjects}>{t("button.message")}</button>
         </div>
 
         </div>
