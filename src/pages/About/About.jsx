@@ -20,7 +20,16 @@ export default function About(){
                 <img className={styles.image} src={image} alt="" />
                 <div className={styles.container}>
                     <h3>{t("body.message")}</h3>
-                    <h2 className={styles.technologies}>{t("body.title")}</h2>
+                    <div className={styles.contactInfo}>
+                        <h3>{t("body.small")} </h3>
+                        <a href="https://github.com/Ddeltoro97"> <FontAwesomeIcon className={styles.icon} icon={faGithub}/></a>
+                        <a href="https://www.linkedin.com/in/david-del-toro-8aa143102/"><FontAwesomeIcon className={styles.icon} icon={faLinkedin}/></a>
+                        <h2>{t("contact.message")} <NavLink to = "/contact">{t("contact.message2")}</NavLink> {t("contact.message3")}</h2>
+                    </div>
+                </div>         
+            </div>
+
+            <h2 className={styles.technologies}>{t("body.title")}</h2>
                     <div className={styles.techHolder}>
                         <div className={styles.tech}>
                             <h3>HTML</h3>
@@ -60,13 +69,7 @@ export default function About(){
                         </div>
                 </div>
                 
-                </div>
-               
-            </div>
-            <h3>{t("body.small")} </h3>
-            <a href="https://github.com/Ddeltoro97"> <FontAwesomeIcon className={styles.icon} icon={faGithub}/></a>
-            <a href="https://www.linkedin.com/in/david-del-toro-8aa143102/"><FontAwesomeIcon className={styles.icon} icon={faLinkedin}/></a>
-            <h2>{t("contact.message")} <NavLink to = "/contact">{t("contact.message2")}</NavLink> {t("contact.message3")}</h2>
+            
             <div>
             </div>
             </div>

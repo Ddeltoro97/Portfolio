@@ -1,0 +1,14 @@
+{
+    "header": {
+        "message": "Mis Proyectos"
+    },
+    "drivers":{
+        "message": "Esta app te permite buscar cualquier conductor de F1 existente. Puedes buscarlos usando sus nombres o filtrándolos por equipo. Además de eso, esta app te permite crear tus propios conductores de F1 dándote también la opción de editar o eliminar tus conductores creados. Tiene un diseño responsive, lo que significa que puedes usar esta app en tu tabla o teléfono."
+    },
+    "cer0":{
+        "message": "Esta app fue creada por mi y mis compañeros de Henry. Es una aplicación de ventas que busca simplificar el trabajo para pequeños negocios y grandes también. En esta app puedes tener cuentas de cualquier venta y el inventario de los productos. Hay dos tipos de usuario: empresa y vendedor. Las empresas pueden crear vendedores, sucursales, ect mientras que las cuentas de vendedor tienen la posibilidad de alterar el inventario y registrar ventas. Hay múltiples paquetes para esta app, siendo el mas sencillo el paquete gratis."
+    },
+    "click":{
+        "message": "Click aquí para probarlo"
+    }
+}

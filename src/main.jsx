@@ -18,6 +18,9 @@ import about_es from "./translations/es/about.json";
 import contact_en from "./translations/en/contact.json";
 import contact_es from "./translations/es/contact.json";
 
+import projects_en from "./translations/en/projects.json"
+import projects_es from "./translations/es/projects.json"
+
 
 i18next.init({
   interpolation: {escapeValue: true},
@@ -27,13 +30,15 @@ i18next.init({
       navBar: navBar_en,
       home: home_en,
       about: about_en,
-      contact: contact_en
+      contact: contact_en,
+      projects: projects_en
     },
     es: {
       navBar: navBar_es,
       home: home_es,
       about: about_es,
-      contact: contact_es
+      contact: contact_es,
+      projects: projects_es
     }
   }
 })

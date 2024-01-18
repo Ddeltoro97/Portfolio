@@ -1,7 +1,4 @@
-.about{
-    /* background-color: blue;
-    width: max-content; */
-}
+
 
 .line{
     width: 70hw;
@@ -10,6 +7,7 @@
 .image{
     height: 300px;
     margin: 4px;
+    margin-left: 35px;
 }
 
 .flex{
@@ -18,10 +16,18 @@
 
 .container{
     width: 60vw;
+    /* border: 1px solid black; */
+    margin-left: 35px;
+
+}
+
+.contactInfo{
+    margin-top: 5vw;
 }
 
 .technologies{
     font-weight: 900;
+    margin-top: 35px;
 }
 
 .techHolder{
@@ -46,4 +52,14 @@
 
 .icon:hover{
     color: rgb(61, 61, 132);
+}
+
+@media screen and (max-width: 813px) {
+    .flex{
+        display: grid;
+    }
+
+    .container{
+        width: 75vw;
+    }
 }

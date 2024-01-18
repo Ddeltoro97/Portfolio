@@ -1,17 +1,19 @@
 .container{
-    display: flex;
+    display: grid;
     margin: 7px;
+    border: 1px solid rgb(110, 108, 108);
+    background-color: #d2d2d5;
+    padding: 10px;
 }
+
+
 
 .nameImage{
    width: 300px;
     /* height: 50px; */
-    border: 1px solid rgb(110, 108, 108);
-    background-color: #292285;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .image{
@@ -19,13 +21,13 @@
 }
 
 .descriptionHolder{
-    border: 1px solid rgb(110, 108, 108);
-    width: 50vw;
+    width: 300px;
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
 
 .finalHolder{
-    display: grid;
-    place-items: center;
-    border: 1px solid rgb(110, 108, 108);
-    width: 15vw;
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }

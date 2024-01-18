@@ -8,13 +8,13 @@
 }
 
 .input{
-    width: 350px;
+    width: 320px;
     background-color: white;
 }
 
 .textBox{
     height: 75px;
-    width: 350px;
+    width: 320px;
     margin-bottom: 4px;
     background-color: white;
 }
@@ -26,6 +26,10 @@
 
 .button:hover{
     background-color: #FAF861;
+}
+.button:disabled{
+    background-color: rgb(187, 186, 186);
+    color: gray;
 }
 
 .modal{

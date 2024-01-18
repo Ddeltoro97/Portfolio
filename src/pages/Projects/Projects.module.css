@@ -1,0 +1,4 @@
+.projectHolder{
+    display: flex;
+    flex-wrap: wrap;
+}
