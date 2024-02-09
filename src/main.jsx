@@ -18,8 +18,11 @@ import about_es from "./translations/es/about.json";
 import contact_en from "./translations/en/contact.json";
 import contact_es from "./translations/es/contact.json";
 
-import projects_en from "./translations/en/projects.json"
-import projects_es from "./translations/es/projects.json"
+import projects_en from "./translations/en/projects.json";
+import projects_es from "./translations/es/projects.json";
+
+import certificates_en from "./translations/en/certificates.json";
+import certificates_es from "./translations/es/certificates.json";
 
 
 i18next.init({
@@ -31,14 +34,16 @@ i18next.init({
       home: home_en,
       about: about_en,
       contact: contact_en,
-      projects: projects_en
+      projects: projects_en,
+      certificates: certificates_en
     },
     es: {
       navBar: navBar_es,
       home: home_es,
       about: about_es,
       contact: contact_es,
-      projects: projects_es
+      projects: projects_es,
+      certificates: certificates_es
     }
   }
 })

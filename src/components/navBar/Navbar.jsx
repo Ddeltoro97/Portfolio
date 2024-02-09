@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faHouse, faBars, faBriefcase, faUser, faPhone} from "@fortawesome/free-solid-svg-icons";
+import {faHouse, faBars, faBriefcase, faUser, faPhone, faMedal} from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 import { useTranslation } from "react-i18next";
@@ -42,10 +42,17 @@ export default function Navbar({children}){
                         <h2 style={{display: isOpen ? "block" : "none"}}> {t("about.message")}</h2>
                     </div>
                 </NavLink>
+             
                 <NavLink to = '/projects'>
                     <div style={{background: currentRoute == '/projects' && "#2859D2"}} className={styles.section}>
                         <FontAwesomeIcon icon={faBriefcase}/>
                         <h2 style={{display: isOpen ? "block" : "none"}}> {t("proyects.message")}</h2>
+                    </div>
+                </NavLink>
+                <NavLink to = '/certificates'>
+                    <div style={{background: currentRoute == '/certificates' && "#2859D2"}} className={styles.section}>
+                        <FontAwesomeIcon icon={faMedal}/>
+                        <h2 style={{display: isOpen ? "block" : "none"}}> {t("certificates.message")}</h2>
                     </div>
                 </NavLink>
                 <NavLink to = '/contact'>

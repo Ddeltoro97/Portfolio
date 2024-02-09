@@ -11,6 +11,9 @@
     "proyects":{
         "message": "My Projects"
     },
+    "certificates":{
+        "message": "My Certificates"
+    },
     "contact":{
         "message": "Contact"
     }
