@@ -26,11 +26,9 @@ export default function LandingPage(){
 
     return(
         <div className={styles.container}>
-            <h1>Select Language</h1>
-            <div>
-            <button onClick={english} className={styles.button}>English</button>
-            <button onClick={spanish} className={styles.button}>Español</button>
-            </div>
+           <h1>Hello</h1>
+           <h3>I just wanted to inform you that this is no longer my portfolio, take a look at my newer one!</h3>
+           <a href="https://new-portfolio-plum-one.vercel.app/">Click here for my updated portfolio</a>
         </div>
     )
 }
